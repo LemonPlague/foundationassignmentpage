@@ -1,0 +1,20 @@
+
+.headlogo {
+    margin-left: 50px;
+    background-color: blue;
+}
+
+nav ul {
+    display: flex;
+    background-color: blueviolet;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+nav li {
+    
+}
+
+section {
+    background-color: brown;
+}
