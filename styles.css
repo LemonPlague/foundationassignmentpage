@@ -1,14 +1,26 @@
 
 .headlogo {
     margin-left: 50px;
-    background-color: blue;
+    background-image: url("assets/adidas.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    display: inline-block;
+    width: 300px;
+    height: 20px;
+    text-indent: -9999999px;
 }
 
 nav ul {
     display: flex;
-    background-color: blueviolet;
     justify-content: flex-end;
     list-style-type: none;
+    margin-top: -20px;
+}
+
+nav li {
+    background: green;
+    margin: 1px;
 }
 
 
