@@ -41,13 +41,10 @@ section.top div {
     width: 300px;
 }
 
-section.top .text {
-    background-color: red;
-}
+
 
 section.top .image {
     background-image: url("assets/photo1.jpg");
-    background-color: blueviolet;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -57,22 +54,24 @@ section.top .image {
 /* top mid section */
 
 section.topmid {
-    background-color: red;
     text-align: center;
 }
 
-section.topmid ul {
+section.topmid div {
     display: flex;
+    gap: 40px;
     justify-content: center;
 }
 
 section.topmid figure {
     width: 50px;
-    margin: auto;
-    text-align: center;
 }
 
 section.topmid figure img {
-    width: 100px;
+    height: 100px;
     border-radius: 10px;
+}
+
+section.topmid figure figcaption {
+    font-size: 10px;
 }
