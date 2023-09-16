@@ -95,3 +95,14 @@ section.lowmid div {
     margin-top: -60px;
     margin-right: 60px;
 }
+
+/* bottom section */
+
+section.bottom .signup {
+    margin: 40px 100px 40px 100px;
+    background-color: #3882f6;
+    text-align: left;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
