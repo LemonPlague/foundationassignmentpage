@@ -75,3 +75,23 @@ section.topmid figure img {
 section.topmid figure figcaption {
     font-size: 10px;
 }
+
+/* low mid section */
+
+section.lowmid {
+    padding: 40px;
+    background-color: #e5e7eb;
+}
+
+section.lowmid p {
+    padding: 30px;
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+}
+
+section.lowmid div {
+    text-align: right;
+    margin-top: -60px;
+    margin-right: 60px;
+}
