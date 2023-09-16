@@ -24,7 +24,7 @@ nav li {
     text-indent: -999999px;
 }
 
-nav ul, section.top {
+nav ul, section.top, footer {
     background-color: #1F2937;
 }
 
@@ -98,11 +98,27 @@ section.lowmid div {
 
 /* bottom section */
 
-section.bottom .signup {
+section.bottom .signup .text {
     margin: 40px 100px 40px 100px;
     background-color: #3882f6;
     text-align: left;
     color: white;
     padding: 30px;
     border-radius: 10px;
+}
+
+section.bottom .button {
+    color: red;
+    position: relative;
+    text-align: right;
+    background-color: aqua;
+    z-index: 20px;
+    
+}
+
+footer {
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 30px;
 }
