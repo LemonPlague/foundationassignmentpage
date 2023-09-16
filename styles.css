@@ -1,18 +1,8 @@
-
-.headlogo {
-    background-image: url("assets/adidas.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 30%;
-    height: 20px;
-    width: 300px;
-    flex-basis: 400px;
-    text-indent: -9999999px;
-}
+/* header content */
 
 nav ul {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     list-style-type: none;
     margin: auto;
     color: white;
@@ -22,25 +12,44 @@ nav li {
     margin: 5px;
 }
 
+
+.headlogo a {
+    background-image: url("assets/adidas.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    height: 20px;
+    width: 400px;
+    display: inline-block;
+    text-indent: -999999px;
+}
+
 nav ul, section.top {
     background-color: #1F2937;
 }
 
+/* top section content */
+
 section.top {
     display: flex;
     padding: 50px;
+    justify-content: center;
 }
 
 section.top div {
     color: white;
+    width: 300px;
 }
 
+section.top .text {
+    background-color: red;
+}
 
-.image {
+section.top .image {
     background-image: url("assets/photo1.jpg");
-    width: 100%;
+    background-color: blueviolet;
     background-position: center;
-    background-size: 50%;
+    background-size: 100%;
     background-repeat: no-repeat;
     text-indent: -9999999px;
 }
