@@ -16,14 +16,32 @@ nav ul {
     justify-content: flex-end;
     list-style-type: none;
     margin-top: -20px;
+    color: white;
 }
 
 nav li {
-    background: green;
-    margin: 1px;
+    margin: 5px;
+}
+
+nav ul, section.top {
+    background-color: #1F2937;
+}
+
+section.top {
+    display: flex;
+    padding: 50px;
+}
+
+section.top div {
+    color: white;
 }
 
 
-section {
-    background-color: brown;
+.image {
+    background-image: url("assets/photo1.jpg");
+    width: 100%;
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    text-indent: -9999999px;
 }
