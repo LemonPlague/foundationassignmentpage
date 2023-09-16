@@ -2,7 +2,7 @@
 
 nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     list-style-type: none;
     margin: auto;
     color: white;
@@ -52,4 +52,27 @@ section.top .image {
     background-size: 100%;
     background-repeat: no-repeat;
     text-indent: -9999999px;
+}
+
+/* top mid section */
+
+section.topmid {
+    background-color: red;
+    text-align: center;
+}
+
+section.topmid ul {
+    display: flex;
+    justify-content: center;
+}
+
+section.topmid figure {
+    width: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+section.topmid figure img {
+    width: 100px;
+    border-radius: 10px;
 }
